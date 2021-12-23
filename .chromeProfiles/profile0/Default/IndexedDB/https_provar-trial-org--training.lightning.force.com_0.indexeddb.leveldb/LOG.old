@@ -1,0 +1,10 @@
+2021/12/22-13:08:40.330 73c Reusing MANIFEST C:\Users\Dell\Provar\SonataWorkspace\.chromeProfiles\profile0\Default\IndexedDB\https_provar-trial-org--training.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/12/22-13:08:40.332 73c Recovering log #22
+2021/12/22-13:08:41.662 73c Reusing old log C:\Users\Dell\Provar\SonataWorkspace\.chromeProfiles\profile0\Default\IndexedDB\https_provar-trial-org--training.lightning.force.com_0.indexeddb.leveldb/000022.log 
+2021/12/22-13:12:14.080 2e40 Level-0 table #28: started
+2021/12/22-13:12:14.379 2e40 Level-0 table #28: 2171071 bytes OK
+2021/12/22-13:12:14.409 2e40 Delete type=0 #22
+2021/12/22-17:07:32.620 3644 Compacting 1@1 + 1@2 files
+2021/12/22-17:07:32.750 3644 Generated table #29@1: 818 keys, 941143 bytes
+2021/12/22-17:07:32.765 3644 Compacted 1@1 + 1@2 files => 941143 bytes
+2021/12/22-17:07:32.801 3644 compacted to: files[ 0 0 1 0 0 0 0 ]

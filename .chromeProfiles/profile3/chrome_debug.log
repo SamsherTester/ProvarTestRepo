@@ -1,0 +1,48 @@
+[13448:13640:1221/150524.834:WARNING:chrome_command_line_pref_store.cc(123)] Additional command-line proxy switches specified when --no-proxy-server was also specified.
+[13448:13640:1221/150524.840:WARNING:chrome_command_line_pref_store.cc(123)] Additional command-line proxy switches specified when --no-proxy-server was also specified.
+[13448:13640:1221/150525.014:WARNING:chrome_command_line_pref_store.cc(123)] Additional command-line proxy switches specified when --no-proxy-server was also specified.
+[13448:13640:1221/150528.974:INFO:CONSOLE(1706)] "INIT    === Start of processExistingTabs.  refresh: false", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1706)
+[13448:13640:1221/150528.976:INFO:CONSOLE(1706)] "INIT    === Start of processExistingTabs.  refresh: true", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1706)
+[13448:13640:1221/150528.988:INFO:CONSOLE(1708)] "INIT    === chrome.tabs.query result.  tabs.length: 1", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1708)
+[13448:13640:1221/150528.988:INFO:CONSOLE(1714)] "INIT    === Got pre-exiting tab.  i:  0, tabId: 2, url: file:///C:/Users/Dell/AppData/Local/Temp/ProvarChromeIde7840854969469096890/provarPort=50494&idePort=50837&sessionId=6&subSessionId=2&connectionName=Admin:Admin&devMode=false&showEnhancedXpathEditor=true&dmwAttempt=0&dmwCloseTimeInSec=2000&useTargetXpaths=false.html, existingTab: undefined", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1714)
+[13448:13640:1221/150528.989:INFO:CONSOLE(1722)] "INIT    === Created connectionDetails for new tab", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1722)
+[13448:13640:1221/150528.989:INFO:CONSOLE(1726)] "INIT    === Set focused tab.  focusedTabId: 2", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1726)
+[13448:13640:1221/150528.991:INFO:CONSOLE(1708)] "INIT    === chrome.tabs.query result.  tabs.length: 1", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1708)
+[13448:13640:1221/150528.992:INFO:CONSOLE(1714)] "INIT    === Got pre-exiting tab.  i:  0, tabId: 2, url: file:///C:/Users/Dell/AppData/Local/Temp/ProvarChromeIde7840854969469096890/provarPort=50494&idePort=50837&sessionId=6&subSessionId=2&connectionName=Admin:Admin&devMode=false&showEnhancedXpathEditor=true&dmwAttempt=0&dmwCloseTimeInSec=2000&useTargetXpaths=false.html, existingTab: [object Object]", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1714)
+[13448:13640:1221/150529.032:INFO:CONSOLE(1211)] "Sending request to Provar to get strategies", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1211)
+[13448:13640:1221/150529.172:INFO:CONSOLE(2308)] "dispatchMessage - resolving response:  [object Object]", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (2308)
+[13448:11680:1221/150529.781:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[13448:11680:1221/150530.127:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[13448:11680:1221/150530.127:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[13448:11680:1221/150530.177:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+[13448:13640:1221/150533.981:INFO:CONSOLE(1706)] "INIT    === Start of processExistingTabs.  refresh: true", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1706)
+[13448:13640:1221/150533.981:INFO:CONSOLE(1708)] "INIT    === chrome.tabs.query result.  tabs.length: 1", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1708)
+[13448:13640:1221/150533.981:INFO:CONSOLE(1714)] "INIT    === Got pre-exiting tab.  i:  0, tabId: 2, url: about:blank, existingTab: [object Object]", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1714)
+[13448:13640:1221/150602.942:INFO:CONSOLE(37)] "[object Object]", source: https://provar-trial-org--training.lightning.force.com/libraries/instrumentation/beaconLib.BeaconLibrary.js (37)
+[13448:13640:1221/150619.244:INFO:CONSOLE(37)] "[object Object]", source: https://provar-trial-org--training.lightning.force.com/libraries/instrumentation/beaconLib.BeaconLibrary.js (37)
+[13448:13640:1221/150635.279:INFO:CONSOLE(37)] "[object Object]", source: https://provar-trial-org--training.lightning.force.com/libraries/instrumentation/beaconLib.BeaconLibrary.js (37)
+[13448:13640:1221/150635.573:INFO:CONSOLE(37)] "[object Object]", source: https://provar-trial-org--training.lightning.force.com/libraries/instrumentation/beaconLib.BeaconLibrary.js (37)
+[13448:13640:1221/150644.602:INFO:CONSOLE(1434)] "[object HTMLDivElement]", source:  (1434)
+[13448:13640:1221/150647.652:INFO:CONSOLE(1434)] "[object HTMLDivElement]", source:  (1434)
+[13448:13640:1221/150648.472:INFO:CONSOLE(1434)] "[object HTMLDivElement]", source:  (1434)
+[13448:13640:1221/150651.783:INFO:CONSOLE(1434)] "[object HTMLDivElement]", source:  (1434)
+[13448:13640:1221/150651.872:INFO:CONSOLE(1434)] "[object HTMLElement]", source:  (1434)
+[13448:13640:1221/150657.462:INFO:CONSOLE(1434)] "[object HTMLDivElement]", source:  (1434)
+[13448:13640:1221/150658.018:INFO:CONSOLE(1434)] "[object HTMLDivElement]", source:  (1434)
+[13448:13640:1221/150658.272:INFO:CONSOLE(1434)] "[object HTMLDivElement]", source:  (1434)
+[13448:13640:1221/150658.972:INFO:CONSOLE(1434)] "[object HTMLDivElement]", source:  (1434)
+[13448:13640:1221/150659.096:INFO:CONSOLE(1434)] "[object HTMLElement]", source:  (1434)
+[13448:13640:1221/150702.473:INFO:CONSOLE(1434)] "[object HTMLDivElement]", source:  (1434)
+[13448:13640:1221/150702.932:INFO:CONSOLE(1434)] "[object HTMLDivElement]", source:  (1434)
+[13448:13640:1221/150703.136:INFO:CONSOLE(1434)] "[object HTMLDivElement]", source:  (1434)
+[13448:13640:1221/150703.766:INFO:CONSOLE(1434)] "[object HTMLDivElement]", source:  (1434)
+[13448:13640:1221/150703.877:INFO:CONSOLE(1434)] "[object HTMLElement]", source:  (1434)
+[13448:13640:1221/150709.285:INFO:CONSOLE(1434)] "[object HTMLDivElement]", source:  (1434)
+[13448:13640:1221/150709.591:INFO:CONSOLE(1434)] "[object HTMLDivElement]", source:  (1434)
+[13448:13640:1221/150710.183:INFO:CONSOLE(1434)] "[object HTMLElement]", source:  (1434)
+[13448:13640:1221/150710.779:INFO:CONSOLE(1434)] "[object HTMLButtonElement]", source:  (1434)
+[13448:13640:1221/150717.969:INFO:CONSOLE(1)] "<lightning-icon> Invalid icon name utility:", source: https://provar-trial-org--training.lightning.force.com/components/lightning/icon.js (1)
+[13448:13640:1221/150718.370:INFO:CONSOLE(37)] "[object Object]", source: https://provar-trial-org--training.lightning.force.com/libraries/instrumentation/beaconLib.BeaconLibrary.js (37)
+[13448:13640:1221/172430.691:INFO:CONSOLE(6770)] "crbug/1173575, non-JS module files deprecated.", source: chrome-error://chromewebdata/ (6770)
+[13448:13640:1221/175457.365:INFO:CONSOLE(1606)] "Tab Closed.  tabId: 2", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1606)
+[13448:13640:1221/175517.547:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

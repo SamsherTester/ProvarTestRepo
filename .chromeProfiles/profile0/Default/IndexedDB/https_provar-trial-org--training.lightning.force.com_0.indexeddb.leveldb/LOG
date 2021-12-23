@@ -1,0 +1,23 @@
+2021/12/23-00:37:31.086 273c Reusing MANIFEST C:\Users\Dell\Provar\SonataWorkspace\.chromeProfiles\profile0\Default\IndexedDB\https_provar-trial-org--training.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/12/23-00:37:31.087 273c Recovering log #27
+2021/12/23-00:37:31.349 273c Reusing old log C:\Users\Dell\Provar\SonataWorkspace\.chromeProfiles\profile0\Default\IndexedDB\https_provar-trial-org--training.lightning.force.com_0.indexeddb.leveldb/000027.log 
+2021/12/23-00:37:31.350 273c Delete type=2 #25
+2021/12/23-00:37:31.350 273c Delete type=2 #28
+2021/12/23-00:37:32.230 7b0 Level-0 table #32: started
+2021/12/23-00:37:32.409 7b0 Level-0 table #32: 1881653 bytes OK
+2021/12/23-00:37:32.463 7b0 Delete type=0 #27
+2021/12/23-00:37:39.259 1d90 Compacting 1@1 + 1@2 files
+2021/12/23-00:37:39.369 1d90 Generated table #33@1: 808 keys, 762120 bytes
+2021/12/23-00:37:39.369 1d90 Compacted 1@1 + 1@2 files => 762120 bytes
+2021/12/23-00:37:39.417 1d90 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/12/23-00:37:39.418 1d90 Delete type=2 #29
+2021/12/23-00:37:39.418 1d90 Delete type=2 #32
+2021/12/23-00:38:18.640 7b0 Level-0 table #35: started
+2021/12/23-00:38:18.803 7b0 Level-0 table #35: 1794261 bytes OK
+2021/12/23-00:38:18.857 7b0 Delete type=0 #31
+2021/12/23-00:41:04.364 e28 Compacting 1@1 + 1@2 files
+2021/12/23-00:41:04.495 e28 Generated table #36@1: 693 keys, 801298 bytes
+2021/12/23-00:41:04.495 e28 Compacted 1@1 + 1@2 files => 801298 bytes
+2021/12/23-00:41:04.568 e28 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/12/23-00:41:04.569 e28 Delete type=2 #33
+2021/12/23-00:41:04.569 e28 Delete type=2 #35

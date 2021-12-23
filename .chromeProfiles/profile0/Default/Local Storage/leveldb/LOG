@@ -1,0 +1,6 @@
+2021/12/23-00:37:14.854 2750 Reusing MANIFEST C:\Users\Dell\Provar\SonataWorkspace\.chromeProfiles\profile0\Default\Local Storage\leveldb/MANIFEST-000001
+2021/12/23-00:37:14.859 2750 Recovering log #3
+2021/12/23-00:37:14.863 2750 Reusing old log C:\Users\Dell\Provar\SonataWorkspace\.chromeProfiles\profile0\Default\Local Storage\leveldb/000003.log 
+2021/12/23-00:52:11.349 1430 Level-0 table #5: started
+2021/12/23-00:52:11.413 1430 Level-0 table #5: 13210 bytes OK
+2021/12/23-00:52:11.443 1430 Delete type=0 #3

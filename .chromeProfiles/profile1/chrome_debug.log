@@ -1,0 +1,25 @@
+[6804:6792:1223/003211.089:WARNING:chrome_command_line_pref_store.cc(123)] Additional command-line proxy switches specified when --no-proxy-server was also specified.
+[6804:6792:1223/003211.094:WARNING:chrome_command_line_pref_store.cc(123)] Additional command-line proxy switches specified when --no-proxy-server was also specified.
+[6804:6792:1223/003211.163:WARNING:chrome_command_line_pref_store.cc(123)] Additional command-line proxy switches specified when --no-proxy-server was also specified.
+[6804:6792:1223/003212.541:INFO:CONSOLE(1706)] "INIT    === Start of processExistingTabs.  refresh: false", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1706)
+[6804:6792:1223/003212.542:INFO:CONSOLE(1706)] "INIT    === Start of processExistingTabs.  refresh: true", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1706)
+[6804:6792:1223/003212.555:INFO:CONSOLE(1708)] "INIT    === chrome.tabs.query result.  tabs.length: 1", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1708)
+[6804:6792:1223/003212.555:INFO:CONSOLE(1714)] "INIT    === Got pre-exiting tab.  i:  0, tabId: 2, url: file:///C:/Users/Dell/AppData/Local/Temp/ProvarChromeIde161026575648421362/provarPort=49911&idePort=49924&sessionId=2&subSessionId=2&connectionName=Admin:Admin&devMode=false&showEnhancedXpathEditor=true&dmwAttempt=0&dmwCloseTimeInSec=2000&useTargetXpaths=false.html, existingTab: undefined", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1714)
+[6804:6792:1223/003212.555:INFO:CONSOLE(1722)] "INIT    === Created connectionDetails for new tab", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1722)
+[6804:6792:1223/003212.555:INFO:CONSOLE(1726)] "INIT    === Set focused tab.  focusedTabId: 2", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1726)
+[6804:6792:1223/003212.555:INFO:CONSOLE(1708)] "INIT    === chrome.tabs.query result.  tabs.length: 1", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1708)
+[6804:6792:1223/003212.555:INFO:CONSOLE(1714)] "INIT    === Got pre-exiting tab.  i:  0, tabId: 2, url: file:///C:/Users/Dell/AppData/Local/Temp/ProvarChromeIde161026575648421362/provarPort=49911&idePort=49924&sessionId=2&subSessionId=2&connectionName=Admin:Admin&devMode=false&showEnhancedXpathEditor=true&dmwAttempt=0&dmwCloseTimeInSec=2000&useTargetXpaths=false.html, existingTab: [object Object]", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1714)
+[6804:6792:1223/003212.559:INFO:CONSOLE(1211)] "Sending request to Provar to get strategies", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1211)
+[6804:6792:1223/003212.628:INFO:CONSOLE(2308)] "dispatchMessage - resolving response:  [object Object]", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (2308)
+[6804:6792:1223/003213.889:ERROR:device_event_log_impl.cc(214)] [00:32:13.890] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[6804:2268:1223/003213.891:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[6804:2268:1223/003213.892:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[6804:2268:1223/003213.893:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[6804:2268:1223/003213.922:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+[6804:6792:1223/003217.551:INFO:CONSOLE(1706)] "INIT    === Start of processExistingTabs.  refresh: true", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1706)
+[6804:6792:1223/003217.553:INFO:CONSOLE(1708)] "INIT    === chrome.tabs.query result.  tabs.length: 1", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1708)
+[6804:6792:1223/003217.553:INFO:CONSOLE(1714)] "INIT    === Got pre-exiting tab.  i:  0, tabId: 2, url: about:blank, existingTab: [object Object]", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1714)
+[6804:6792:1223/003232.211:INFO:CONSOLE(37)] "[object Object]", source: https://provar-trial-org--training.lightning.force.com/libraries/instrumentation/beaconLib.BeaconLibrary.js (37)
+[6804:6792:1223/021549.610:INFO:CONSOLE(6770)] "crbug/1173575, non-JS module files deprecated.", source: chrome-error://chromewebdata/ (6770)
+[6804:6792:1223/040516.338:INFO:CONSOLE(1606)] "Tab Closed.  tabId: 2", source: chrome-extension://nmbogdocjkmmbnmmbjoipdfdfhhgebff/BS.js (1606)
+[6804:6792:1223/040518.490:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

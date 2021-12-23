@@ -1,0 +1,6 @@
+2021/12/23-01:06:56.181 798 Reusing MANIFEST C:\Users\Dell\Provar\SonataWorkspace\.chromeProfiles\profile2\Default\IndexedDB\https_provar-trial-org--training.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/12/23-01:06:56.182 798 Recovering log #7
+2021/12/23-01:06:56.182 798 Reusing old log C:\Users\Dell\Provar\SonataWorkspace\.chromeProfiles\profile2\Default\IndexedDB\https_provar-trial-org--training.lightning.force.com_0.indexeddb.leveldb/000007.log 
+2021/12/23-01:10:22.673 798 Level-0 table #12: started
+2021/12/23-01:10:22.861 798 Level-0 table #12: 2383722 bytes OK
+2021/12/23-01:10:22.911 798 Delete type=0 #7
