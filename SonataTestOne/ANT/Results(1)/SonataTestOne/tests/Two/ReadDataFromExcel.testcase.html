@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<style>
+
+			body {
+				font-family: sans-serif;
+			}
+
+			.TestCaseImplTitle {
+				color: blue;
+				font: 0.85em arial;
+				font-weight: bold;
+			}
+
+			.TestCaseImpl .TestItemTitle {
+				color: blue;
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+				margin-bottom: 0.5em;
+			}
+
+			.TestCaseImpl .TestItemOutcome {
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+			}
+
+			.ApiCallImpl .TestItemTitle{
+				color: blue;
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+				margin-bottom: 0.25em;
+			}
+
+			.ApiCallImpl .TestItemOutcome {
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+			}
+
+			.TestItemOutcome {
+				padding-left: 20px;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				clear: both;
+			}
+			
+			.TestItemOutcome.Successful {
+				color: green;
+				background: url('../../../successful_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestItemOutcome.Failed {
+				color: red;
+				background: url('../../../failed_16x16.gif') no-repeat 0 0.15em;
+				font-weight: bold;
+			}
+
+			.TestItemOutcome.Skipped {
+				color: orange;
+				background: url('../../../skipped_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestOutput {
+				font: 0.9em arial;
+				color: black;
+				margin-top: 0.15em;
+				margin-bottom: 0.15em;
+			}
+
+			.TestOutput.err {
+				font-weight: bold;
+				color: red;
+			}
+
+			.TestOutput.war {
+				font-weight: bold;
+				color: orange;
+			}
+
+			.ApiCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+
+			.TestCaseCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+			
+		</style>
+	</head>
+	<body><div id='detail-body'>
+	<div style='float: right;'><img src='../../..//provar_logo_400x100.png' height='50'/></div>
+<h2><img src='../../..//testcase_16x16.png' style='height: 24; padding-top: 4px;'/> ReadDataFromExcel.testcase</h2>
+<div class='TestCaseImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>05:29:02 (00:00.000)</span></div>Start of Test Case ReadDataFromExcel.testcase</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>05:29:02 (00:00.007)</span></div>Start of Test Step Salesforce Connect: Admin (Test)</div><div class='TestOutput inf'>Connecting to Salesforce as Admin</div><div class='TestOutput off'>Successfully connected to Salesforce as Admin</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>05:29:06 (00:03.933)</span></div>Test Step successful.</div></div><div class='TestOutput inf'>Loading data from Parameter Value Source ...</div><div class='TestOutput inf'>Loading Parameter Value Source row 1:</div><div class='TestOutput inf'>==Column=&gt; Salutation = PrimitiveValueImpl [ value: Mr., valueId=null, createdUpdateSeq=-1, updatedUpdateSeq=-1]</div><div class='TestOutput inf'>==Column=&gt; FirstName = PrimitiveValueImpl [ value: Samsher, valueId=null, createdUpdateSeq=-1, updatedUpdateSeq=-1]</div><div class='TestOutput inf'>==Column=&gt; LastName = PrimitiveValueImpl [ value: Shaik, valueId=null, createdUpdateSeq=-1, updatedUpdateSeq=-1]</div><div class='TestOutput inf'>==Column=&gt; Company = PrimitiveValueImpl [ value: Sonata, valueId=null, createdUpdateSeq=-1, updatedUpdateSeq=-1]</div><div class='TestOutput inf'>==Column=&gt; LeadStatus = PrimitiveValueImpl [ value: New, valueId=null, createdUpdateSeq=-1, updatedUpdateSeq=-1]</div><div class='TestOutput off'>Loaded 1 rows from Parameter Value Source.</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>05:29:06 (00:03.934)</span></div>Start of Test Step ReadData</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>05:29:07 (00:05.118)</span></div>Start of Test Step On SF Lead Home screen</div><div class='TestOutput inf'>Start of With Screen.  Connection Name: Admin, target: sf:ui:target?object=Lead&action=ObjectHome</div><div class='TestOutput inf'>Opening Chrome webdriver instance to https://test.salesforce.com/</div><div class='TestOutput off'>Successfully opened Chrome webdriver to https://test.salesforce.com/</div><div class='TestOutput inf'>Opening Page context.  Name: screen, data: null, frame: null</div><div class='TestOutput inf'>Opening Salesforce page.  Object: Lead, RelatedList: null, Action: ObjectHome, Page URL: /lightning/o/00Q/list?filterName=Recent, Current URL: chrome://new-tab-page/</div><div class='TestOutput inf'>Opening Salesforce user home page</div><div class='TestOutput sev'>Error opening Salesforce UI Connection.  Connection Name: Admin, cause: [WebDriverException: chrome not reachable&lt;br/&gt;  (Session info: chrome=96.0.4664.110)&lt;br/&gt;  (Driver info: chromedriver=95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)&lt;br/&gt;Command duration or timeout: 4.18 seconds&lt;br/&gt;Build info: version: 'unknown', revision: 'unknown', time: 'unknown'&lt;br/&gt;System info: host: 'DESKTOP-5MAEPCU', ip: '192.168.1.71', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'&lt;br/&gt;Driver info: org.openqa.selenium.chrome.ChromeDriver&lt;br/&gt;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57247}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}), userDataDir=C:\Users\Dell\Provar\SonataWorkspace\.provarCaches\.chromeProfiles\profile0}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=96.0.4664.110, browserConnectionEnabled=false, proxy=Proxy(direct), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&lt;br/&gt;Session ID: 6d40d8951ad216be4543ff95288429e3]</div><div class='TestOutput sev'>[WebDriverException: chrome not reachable&lt;br/&gt;  (Session info: chrome=96.0.4664.110)&lt;br/&gt;  (Driver info: chromedriver=95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)&lt;br/&gt;Command duration or timeout: 217 milliseconds&lt;br/&gt;Build info: version: 'unknown', revision: 'unknown', time: 'unknown'&lt;br/&gt;System info: host: 'DESKTOP-5MAEPCU', ip: '192.168.1.71', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'&lt;br/&gt;Driver info: org.openqa.selenium.chrome.ChromeDriver&lt;br/&gt;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57247}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}), userDataDir=C:\Users\Dell\Provar\SonataWorkspace\.provarCaches\.chromeProfiles\profile0}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=96.0.4664.110, browserConnectionEnabled=false, proxy=Proxy(direct), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&lt;br/&gt;Session ID: 6d40d8951ad216be4543ff95288429e3]</div><div class='TestOutput sev'>The required connection name isn't present.  This should come from the containing With Screen API.</div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>05:29:40 (00:38.182)</span></div>Test Step failed.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step On SF Lead New screen SKIPPED</div></div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>05:29:40 (00:38.194)</span></div>Test Step failed.</div></div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>05:29:40 (00:38.198)</span></div>Test Case failed.</div></div><div class='TestOutput inf'>Handling managed resource.  Name: Admin</div><div class='TestOutput off'>Salesforce Connection handled successfully.  Name: Admin</div>
+	</div></body>
+</html>
